@@ -1,15 +1,45 @@
+## Video Summary
+
+I watched the talk titled *“Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler – Cem Vardar”*.  
+In this talk, the speaker discusses the relationship between data science and industrial engineering.  
+Industrial engineering focuses on optimization, efficiency, and analytical thinking, while data science
+provides powerful tools for extracting insights from large datasets.
+
+The speaker emphasizes that the integration of statistics, programming, and analytical reasoning
+creates strong opportunities for industrial engineers in modern industries. With the increasing
+availability of data, companies rely heavily on data-driven decision-making processes. Therefore,
+engineers who understand data analysis tools such as R or Python can contribute significantly
+to solving complex real-world problems.
+
+Overall, the talk highlights how combining industrial engineering knowledge with data science
+skills allows professionals to work in diverse sectors such as finance, logistics, technology,
+and operations management.
+
 ---
-title: "Assignment 1"
+
+## Open-ended Question
+
+**Question:**  
+Why is data science becoming increasingly important for industrial engineers?
+
+**Answer:**  
+Data science enables industrial engineers to analyze large datasets and generate insights that
+improve operational and strategic decision-making. As industries become more data-driven,
+engineers need data science skills to model systems, forecast trends, and optimize processes
+based on real-world data.
+
 ---
 
-# Assignment 1
 
-```{r}
-1 + 1
-```
+## Multiple Choice Question
 
-My first assignment has two parts.
+**Question:**  
+Which of the following best describes how data science complements traditional industrial engineering methods?
 
-## (a)
+A) It replaces optimization techniques with purely qualitative analysis  
+B) It allows engineers to integrate statistical learning and large-scale data analysis into decision-making processes  
+C) It eliminates the need for modeling complex systems  
+D) It focuses only on software development rather than system improvement  
 
-## (b)
+**Correct Answer:**  
+B) It allows engineers to integrate statistical learning and large-scale data analysis into decision-making processes
