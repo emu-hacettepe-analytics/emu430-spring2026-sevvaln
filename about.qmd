@@ -26,3 +26,9 @@ R, Quarto, Git, Python, SQL
 
 # Hobbies
 Reading, playing guitar & piano
+
+## My CV
+
+You can download my CV here:
+
+[Download my CV](sevvalnesibe_arslan (9) (1))
