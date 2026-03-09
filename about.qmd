@@ -5,26 +5,23 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
 
 # Work Experience
 
-## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
-
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  Firm IBTECH, position DW Data Insights Intern, year 2026
 
-2.  Firm bbb, position yyy, year yyy
+2.  Firm Garanti BBVA, Regulatory Reporrting Intern, year 2025
 
 # Projects
+1. Türkiye Electricity Demand Forecasting
+2. Machine Learning Based Invesment and Maintenance Optimization
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, SQL
 
 # Hobbies
+Reading, playing guitar & piano
