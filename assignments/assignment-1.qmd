@@ -43,3 +43,94 @@ D) It focuses only on software development rather than system improvement
 
 **Correct Answer:**  
 B) It allows engineers to integrate statistical learning and large-scale data analysis into decision-making processes
+
+---
+
+## Data Analysis Tasks
+
+```{r}
+library(dslabs)
+
+data(polls_us_election_2016)
+
+data <- polls_us_election_2016
+```
+
+## Define Personal Variables
+
+```{r}
+my_first <- "Sevval"
+my_birth_year <- 2003
+```
+
+## Define k
+
+```{r}
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+k
+```
+
+## Display Rows Based on k
+
+```{r}
+if(k %% 2 == 0){
+  head(data, k)
+} else {
+  tail(data, k)
+}
+```
+
+## Total Number of NA Values
+
+```{r}
+sum(is.na(data))
+```
+
+## NA Values Per Column (Top 8)
+
+```{r}
+na_counts <- colSums(is.na(data))
+sort(na_counts, decreasing = TRUE)[1:8]
+```
+
+## Replace NA Values
+
+```{r}
+new_data <- data
+
+for(col in names(new_data)){
+  
+  if(is.numeric(new_data[[col]])){
+    
+    new_data[[col]][is.na(new_data[[col]])] <- my_birth_year + k
+    
+  } else if(is.character(new_data[[col]]) | is.factor(new_data[[col]])){
+    
+    new_data[[col]][is.na(new_data[[col]])] <- paste0(my_first, "_", k)
+    
+  }
+  
+}
+```
+
+## Display k Rows of New Data
+
+```{r}
+if(k %% 2 == 0){
+  head(new_data, k)
+} else {
+  tail(new_data, k)
+}
+```
+
+## Remaining NA Values
+
+```{r}
+sum(is.na(new_data))
+```
+
+## Check if Any NA Remains
+
+```{r}
+anyNA(new_data)
+```
