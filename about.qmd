@@ -6,14 +6,15 @@ sidebar: false
 # Education
 
 -   B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
+-   Minor, Statistics, Hacettepe University, Turkey, 2023 - ongoing.
 
 # Work Experience
 
 ## Internships
 
-1.  Firm IBTECH, position DW Data Insights Intern, year 2026
+1.  IBTECH, position DW Data Insights Intern, year 2026
 
-2.  Firm Garanti BBVA, Regulatory Reporrting Intern, year 2025
+2.  Garanti BBVA, Regulatory Reporrting Intern, year 2025
 
 # Projects
 1. Türkiye Electricity Demand Forecasting
